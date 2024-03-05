@@ -1,3 +1,4 @@
 <li *ngFor="let tvShow of resultList">
   <a [routerLink]="['/tv/details', tvShow.show.id]" routerLinkActive="active" ariaCurrentWhenActive="page">{{ tvShow.show.name }}</a>
 </li>
+
